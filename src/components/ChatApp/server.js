@@ -16,6 +16,10 @@ const User = require('./models/User');
 const PORT = process.env.PORT || 9000;
 app.use(cors());
 
+app.use(cors({
+  origin: ['http://localhost:3000','https://harmonic-hurdles.pages.dev','http://192.168.1.4:3000']
+}));
+
 // import {LocalStorage} from 'node-localstorage'
 async function getAllUsernames() {
   try {
