@@ -84,7 +84,7 @@ export default function Navbar() {
       console.log(userId);
       try {
         const response = await fetch(
-          `http://localhost:4000/user/profile-pic/${userId}`
+          `https://osw-backend.onrender.com/user/profile-pic/${userId}`
         );
 
         const res = await response.json();

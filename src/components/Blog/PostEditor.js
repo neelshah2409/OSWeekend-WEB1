@@ -77,7 +77,7 @@ const PostEditor = ({ content, setContent }) => {
         toolbar:
           "undo redo | blocks fontfamily fontsize | bold italic underline strikethrough codesample code | link image media table | fullscreen | spellcheckdialog | align lineheight | numlist bullist indent outdent | emoticons charmap | removeformat",
 
-        images_upload_url: "http://localhost:4000/media/upload",
+        images_upload_url: "https://osw-backend.onrender.com/media/upload",
         images_upload_handler: handleFileUpload,
       }}
     />

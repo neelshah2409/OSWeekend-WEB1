@@ -144,7 +144,7 @@ const ViewProfile = () => {
     //   logoData.append("file", ProfilePicFile);
 
     //   const logoUploadRes = await fetch(
-    //     `http://localhost:4000/user/upload-pic`,
+    //     `https://osw-backend.onrender.com/user/upload-pic`,
     //     {
     //       method: "POST",
     //       headers: {

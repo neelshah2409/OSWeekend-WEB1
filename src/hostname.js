@@ -1,3 +1,3 @@
-const hostname = "http://localhost:4000";
+const hostname = "https://osw-backend.onrender.com";
 
 module.exports = { hostname };
